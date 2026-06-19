@@ -34,3 +34,9 @@ The core architecture leverages the **Transformer attention mechanism** for retr
 ### 1. Initialize Backend Environment (Uvicorn Service Gateway)
 ```bash
 python -m uvicorn app:app --reload
+2. Initialize Frontend Interface (Streamlit Telemetry Dashboard)
+Apne dusre terminal me jao aur live cluster control board graphical panel chalu karne ke liye yeh command run karo:
+
+Bash
+python -m streamlit run ui.py
+Yeh automatic aapke default web browser me dashboard dynamic access panel http://localhost:8501 launch kar dega.
